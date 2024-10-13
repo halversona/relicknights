@@ -42,8 +42,8 @@ rule3.addEventListener("click", () => showRuleInfo("rule3"));
 
 // Image sources to easier coding and flipping.
 // Will need to adjust this to using the card name when selected when that feature is implented
-const cardFront = "/cards/blackDiamond/blackDragonsFront.png";
-const cardBack = "/cards/blackDiamond/blackDragonsBack.png";
+const cardFront = "./cards/blackDiamond/blackDragonsFront.png";
+const cardBack = "./cards/blackDiamond/blackDragonsBack.png";
 
 buttonFlip.addEventListener("click", () => {
   console.log("click");
